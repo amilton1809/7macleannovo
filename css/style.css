@@ -106,13 +106,12 @@ h2 {
     height: 200px;
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #ED1E24;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 #banner-info p {
-    background-color: #ED1E24;
+    
     font-weight: bold;
     width: 100%;
     margin-right: auto;
@@ -248,16 +247,18 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
-    max-width: 1200px;
+    gap: 10px;
+    max-width: 600px;
     margin: 0 auto 50px auto;
-    padding: 20px;
+    padding: 5px;
+    margin-top: 50px;
   }
   
   /* Cada vídeo dentro da galeria */
   .video-box {
-    flex: 0 0 calc(33.33% - 20px);
-    max-width: calc(33.33% - 20px);
+    flex: 0 0 calc(25% - 15px);
+    max-width: calc(25% - 15px);
+    height: calc(35% - 15px);
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
@@ -267,8 +268,8 @@ h2 {
   
   .video-box video {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
     display: block;
     opacity: 0.9;
     pointer-events: none;
